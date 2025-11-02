@@ -1,0 +1,34 @@
+{
+  "name": "skilzy-creator",
+  "version": "1.1.3",
+  "description": "Comprehensive toolset for creating, converting, validating, and packaging Skilzy-compliant AI agent skills. Use when users want to initialize new skills, convert Claude skills, validate compliance, or package for distribution.",
+  "author": "skilzy-ai",
+  "license": "Apache 2.0",
+  "licenseFile": "LICENSE.txt",
+  "entrypoint": "README.md",
+  "icon": "assets/icon.svg",
+  "runtime": {
+    "type": "python",
+    "version": ">=3.9"
+  },
+  "dependencies": {
+    "python": [
+      "PyYAML>=6.0",
+      "jsonschema>=4.0"
+    ]
+  },
+  "keywords": [
+    "skill-creation",
+    "development",
+    "tooling",
+    "validation",
+    "packaging",
+    "skilzy",
+    "registry",
+    "conversion"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skilzy-ai/official-skills/tree/main/Skills/skilzy-creator"
+  }
+}
