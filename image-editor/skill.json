@@ -1,0 +1,33 @@
+{
+  "name": "image-editor",
+  "version": "1.0.0",
+  "description": "This skill should be used when users want to perform image editing operations including resize, rotate, crop, flip, brightness/contrast/saturation/sharpness adjustments, blur, filters, watermarks, or format conversion.",
+  "author": "skilzy-ai",
+  "license": "MIT",
+  "licenseFile": "LICENSE",
+  "icon": "assets/icon.svg",
+  "entrypoint": "README.md",
+  "runtime": {
+    "type": "python",
+    "version": ">=3.9"
+  },
+  "dependencies": {
+    "system": [],
+    "python": [
+      "Pillow>=10.0.0"
+    ],
+    "skills": []
+  },
+  "keywords": [
+    "image-editor",
+    "image",
+    "creative",
+    "photo",
+    "graphics",
+    "editing",
+    "conversion",
+    "resize",
+    "crop",
+    "watermark"
+  ]
+}
