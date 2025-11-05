@@ -1,0 +1,37 @@
+{
+  "name": "dify-tool-developer",
+  "version": "1.1.5",
+  "description": "Guide AI agents through Dify tool plugin development with mandatory documentation loading, direct CLI usage, and automated CLI installation helper. Use when creating Dify tool plugins or extending Dify with custom tools.",
+  "author": "skilzy-ai",
+  "license": "MIT",
+  "icon": "assets/icon.svg",
+  "entrypoint": "README.md",
+  "keywords": [
+    "Developer Tools",
+    "Agents & Automation",
+    "Skills & Workflow",
+    "API & Backend"
+  ],
+  "runtime": {
+    "type": "python",
+    "version": ">=3.9"
+  },
+  "dependencies": {
+    "python": [],
+    "system": [
+      "curl"
+    ]
+  },
+  "permissions": {
+    "network": {
+      "allowedHosts": [
+        "docs.dify.ai"
+      ],
+      "description": "Fetch latest Dify official documentation"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skilzy-ai/official-skills/tree/main/Skills/dify-tool-developer"
+  }
+}
